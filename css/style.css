@@ -18,7 +18,7 @@ p, label {
 
 input {
     border: none;
-    border-radius: 1px solid #ccc;
+    border-radius: 1px solid #ff0000;
     padding: 10px 0;
 }
 
@@ -34,4 +34,17 @@ textarea {
     height: 160px;
     padding: 20px;
     background-color: #120a91;
+}
+
+.cabecalho h3 {
+    color: #07043d;
+    margin-top: 0;
+}
+
+.form-container {
+    background-color: #ff0000;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -46px;
 }
