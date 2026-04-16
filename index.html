@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,53 +7,52 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="container"></div>
-    <header class="cabecalho">
-        <h3>Cadastre seu veículo para vender mais rapido</h3>
-    </header>
-    <div class="form-container">
-        <div class="form-header">
-            <p>Formulário</p>
+    <div class="container">
+        <header class="cabecalho">
+            <h3>Cadastre seu veículo para vender mais rápido</h3>
+        </header>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Formulário</p>
+            </div>
         </div>
-    </div>
-        <div class="formy-body">
+        <div class="form-body">
             <h1 class="titulo-form">Venda fácil seu carro</h1>
-            <p>Descreva as caracteristicas do seu carro e marque </p>
+            <p>Descreva as características do seu carro e marque os opcionais que ele possui.</p>
             <form>
                 <div class="caixaInputs">
                     <label for="title">Título do anúncio <span class="campo-obrigatorio">*</span></label>
-                    <input type="text" name="title" id="title" class="lock" placeholder="Digite um título para o anúncio">
+                    <input type="text" name="title" id="title" class="block" placeholder="Digite um título para o anúncio">
                 </div>
                 <div class="caixaInputs">
-                    <label for="title">Preço <span class="campo-obrigatorio">*</span></label>
-                    <input type="number" name="preco" id="preco" class="preco" placeholder="Digite o preço">
+                    <label for="preco">Preço <span class="campo-obrigatorio">*</span></label>
+                    <input type="number" name="preco" id="preco" class="block" placeholder="Digite o preço">
                 </div>
-                <div class="caixainputs">
+                <div class="caixaInputs">
                     <label for="descricao">Descrição <span class="campo-obrigatorio">*</span></label>
-                    <textarea name="descricao" id="descricao" class="block" placeholder="Digite a descrição do seu veículo"></textarea>
+                    <textarea name="descricao" id="descricao" class="block" placeholder="Digite a descrição de seu veículo"></textarea>
                 </div>
                 <div class="caixaInputs">
                     <label for="marca">Marca <span class="campo-obrigatorio">*</span></label>
-                    <input type="text" name="marca" id="marca" class="marca" placeholder="Digite a marca">
+                    <input type="text" name="marca" id="marca" class="block" placeholder="Digite a marca">
                 </div>
                 <div class="caixaInputs">
                     <label for="modelo">Modelo <span class="campo-obrigatorio">*</span></label>
-                    <input type="text" name="modelo" id="modelo" class="modelo" placeholder="Digite o modelo">
+                    <input type="text" name="modelo" id="modelo" class="block" placeholder="Digite o modelo">
                 </div>
                 <div class="caixaInputs">
                     <label for="kilometragem">Kilometragem <span class="campo-obrigatorio">*</span></label>
-                    <input type="number" name="kilometragem" id="kilometragem" class="kilometragem" placeholder="Digite a kilometragem">
+                    <input type="number" name="kilometragem" id="kilometragem" class="block" placeholder="Digite a kilometragem">
                 </div>
                 <div class="caixaInputs">
-                    <label for="data-compra">Data de compra <span class="campo-obrigatorio">*</span></label>
-                    <input type="date" name="data-compra" id="data-compra" class="data-compra">
+                    <label for="data-compra">Data de compra<span class="campo-obrigatorio">*</span></label>
+                    <input type="date" name="data-compra" id="data-compra" class="block" >
                 </div>
                 <div class="caixaInputs">
-                    <p>Tipo de Câmbio: <span class="campo-obrigato">*</span></p>
-                    <input type="radio" name="marcha" id="manual"> <label for="manual">Manual</label>
+                    <p>Tipo de Câmbio: <span class="campo-obrigatorio">*</span></p>
+                    <input type="radio" name="marcha" id="manual">
+                    <label for="manual">Manual</label>
                 </div>
             </form>
         </div>
-</div>
-</body>
-</html>
+    </div>
