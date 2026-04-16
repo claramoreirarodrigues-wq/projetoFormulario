@@ -8,6 +8,10 @@ body {
     background-color: #bd0003;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: white
+}
+
 .cabecalho {
     height: 160px;
     padding: 20px;
