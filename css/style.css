@@ -109,3 +109,9 @@ textarea {
     text-transform: uppercase;
     transition: 0.5s;
 }
+
+.btn-submit:hover {
+    background-color: #fff;
+    color: #120a91;
+    border-color: #120a91;
+}
