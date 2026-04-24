@@ -115,3 +115,7 @@ textarea {
     color: #56d722;
     border-color: #56d722;
 }
+
+hr {
+    margin-top: 20px;
+}
