@@ -7,4 +7,14 @@ function salvarCarro(event) {
     let modelo = document.getElementById('modelo').value;
 
     let cambioSelecionado = document.querySelector('input[name="marcha"]:checked');
+
+    let cambio = cambioSelecionado ? cambioSelecionado.id : "Não informado";
+
+    let carro = {
+        titulo,
+        preco,
+        marca,
+        modelo,
+        cambio
+    };
 }
