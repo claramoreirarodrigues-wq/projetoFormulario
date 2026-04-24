@@ -33,16 +33,16 @@ textarea {
 .cabecalho {
     height: 160px;
     padding: 20px;
-    background-color: #120a91;
+    background-color: #141414;
 }
 
 .cabecalho h3 {
-    color: #cf0c0f;
+    color: #cfcfcf;
     margin-top: 0;
 }
 
 .form-container {
-    background-color: #ffebeb;
+    background-color: #7f49b4;
     width: 60%;
     margin: 0 auto;
     position: relative;
@@ -55,8 +55,8 @@ textarea {
 }
 
 .form-header p {
-    color: #120a91;
-    border-bottom: 2px solid #120a91;
+    color: #cfcfcf;
+    border-bottom: 2px solid #cfcfcf;
     width: 100%;
     text-align: center;
     margin: 0 auto;
@@ -78,7 +78,7 @@ textarea {
 }
 
 .campo-obrigatorio {
-    color: rgb(0, 238, 255);
+    color: rgb(255, 0, 0);
 }
 
 .caixaInputs {
@@ -100,7 +100,7 @@ textarea {
 }
 
 .btn-submit {
-    background-color: #120a91;
+    background-color: #7f49b4;
     color: white;
     border: 2px solid transparent;
     width: 150px;
@@ -112,6 +112,6 @@ textarea {
 
 .btn-submit:hover {
     background-color: #fff;
-    color: #120a91;
-    border-color: #120a91;
+    color: #7f49b4;
+    border-color: #7f49b4;
 }
