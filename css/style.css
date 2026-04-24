@@ -118,4 +118,6 @@ textarea {
 
 hr {
     margin-top: 20px;
+    height: 3px;
+    background: linear-gradient(to right, transparent, #56d722, transparent);
 }
