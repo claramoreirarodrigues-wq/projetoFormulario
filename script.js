@@ -43,4 +43,8 @@ function salvarCarro(event) {
 
 window.onload = function () {
     let carros = JSON.parse(localStorage.getItem ('carros')) || [];
+
+    carros.forEach(carro => {
+        adicionarNaTela(carro);
+    });
 }
